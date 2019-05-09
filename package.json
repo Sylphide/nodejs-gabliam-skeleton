@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-gabliam-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "TS_NODE_FILES=true ts-node --type-check index.ts",
+    "watch": "TS_NODE_FILES=true nodemon --watch 'src/**/*.ts' --watch 'index.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' --type-check index.ts"
+  },
+  "dependencies": {
+    "@gabliam/core": "^8.0.0",
+    "@gabliam/express": "^8.0.0",
+    "@gabliam/log4js": "^8.0.0",
+    "@gabliam/tslint": "^1.0.2",
+    "@gabliam/typeorm": "^8.0.0",
+    "@gabliam/web-core": "^8.0.0",
+    "@types/node": "^10.12.21",
+    "nodemon": "^1.18.9",
+    "pg": "^7.10.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sylphide/nodejs-gabliam-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sylphide/nodejs-gabliam-skeleton/issues"
+  },
+  "homepage": "https://github.com/Sylphide/nodejs-gabliam-skeleton#readme"
+}

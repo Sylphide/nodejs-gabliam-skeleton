@@ -1,0 +1,13 @@
+application:
+  typeorm:
+    connectionOptions:
+      - type: postgres
+        host: localhost
+        name: db
+        username: user_vn3
+        password: user_vn3
+        database: test
+        schema: public
+        synchronize: false
+        logging: true
+
